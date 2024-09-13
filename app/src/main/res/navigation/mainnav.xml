@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainnav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.apitest.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_cobra"
+            app:destination="@id/cobra" />
+        <action
+            android:id="@+id/action_homeFragment_to_bridge"
+            app:destination="@id/bridge" />
+        <action
+            android:id="@+id/action_homeFragment_to_warrior2"
+            app:destination="@id/warrior2" />
+    </fragment>
+    <fragment
+        android:id="@+id/cobra"
+        android:name="com.example.apitest.cobra"
+        android:label="fragment_cobra"
+        tools:layout="@layout/fragment_cobra" >
+        <action
+            android:id="@+id/action_cobra_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/warrior2"
+        android:name="com.example.apitest.warrior2"
+        android:label="fragment_warrior2"
+        tools:layout="@layout/fragment_warrior2" />
+    <fragment
+        android:id="@+id/bridge"
+        android:name="com.example.apitest.bridge"
+        android:label="fragment_bridge"
+        tools:layout="@layout/fragment_bridge" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.apitest.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>
