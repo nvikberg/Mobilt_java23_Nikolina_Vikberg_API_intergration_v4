@@ -1,7 +1,5 @@
 Projekt- Skapa en app som använder activity och fragment och hämta valfritt API i Android Studio
 
-Problem - API bilden ssom hämtas är alltid samma(inte problem med koden, utan det är APIt) Lösning är att lägga in egen url bild till varje alternativ att hämta bilderna från ett annat API
-
 
 Första sidan
 ![Screenshot_20240913_124721](https://github.com/user-attachments/assets/fb79e219-824a-4dc7-8fa8-9f38198d77f2)
