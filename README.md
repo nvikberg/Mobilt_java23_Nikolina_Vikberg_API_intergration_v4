@@ -1,5 +1,5 @@
 # API App 
-## API App created in Android Studio written with Kotlin, using activitiy and fragments
+## API App created in Android Studio written with Kotlin, using activity and fragments
 ### By Nikolina Vikberg, Grit Academy Malmö
 
 Project Assignment: Create an app that uses activity and fragment and get a free API from the web in Android Studio
