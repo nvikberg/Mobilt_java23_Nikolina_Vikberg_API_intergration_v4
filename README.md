@@ -1,4 +1,13 @@
-Projekt- Skapa en app som använder activity och fragment och hämta valfritt API i Android Studio
+# API App 
+## API App created in Android Studio written with Kotlin, using activitiy and fragments
+### By Nikolina Vikberg, Grit Academy Malmö
+
+Project Assignment: Create an app that uses activity and fragment and get a free API from the web in Android Studio
+
+This project is a very simple Yoga App where you can click on the buttons to show images pf the yoga positions along with their name and description of the pose. Each buttons opens a fragment and the information in the fragments are collected from the API listed below 
+
+
+Yoga API: https://priyangsubanerjee.github.io/yogism/yogism-api.json
 
 
 Första sidan
